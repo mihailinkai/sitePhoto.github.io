@@ -35,11 +35,9 @@ header h1 {
 
 header {
 	text-align: center;
-	padding: ;
 	grid-column: 1/4;
 	grid-row: 1/2;
-
-	background: no-repeat url(/img/photo1.jpg);
+	background: no-repeat url(../img/img-header.jpg);
 	background-size: 1500px;
 
 }
@@ -120,11 +118,10 @@ nav {
 	top: 0;
 }
 
-
-
-
-
-
+.logo {
+	
+	margin: 10px;
+}
 
 
 
@@ -141,7 +138,6 @@ MAIN
 	grid-row: 2/3;
 	display: grid;
 	grid-auto-columns: 405px auto 405px;
-	grid-auto-rows: px;
 
 }
 
@@ -153,18 +149,14 @@ MAIN
 
 .img-left {
 	grid-column: 1/2;
-	width: ;
-	height: ;
-	background-image: url(/img/img-l.jpg);
+	background-image: url(../img/img-l.jpg);
 	background-size: 600px;
 	background-repeat: no-repeat;
 }
 
 .img-right {
 	grid-column: 3/4;
-	width: ;
-	height: ;
-	background-image: url(/img/photo9.jpg);
+	background-image: url(../img/img-r.jpg);
 	background-size: 410px;
 }
 
@@ -173,21 +165,15 @@ MAIN
 .persona-block h2 {
 	text-transform: uppercase;
 	text-align: center;
-	padding: px;
-	padding-top: ;
 	margin: 5px;
-
-
 
 }
 
 .persona-block h5 {
-
 	padding-top: 50px;
 }
 
 .persona-block p {
-
 	font-size: 18px;
 	text-align: center;
 }
@@ -221,9 +207,6 @@ MAIN
 	color: #363636;
 	box-shadow: 10px 0 10px rgba(0, 0, 0, 0.5);
 	border-radius: 50px 0 0 50px;
-
-	/*	тень*/
-
 }
 
 
@@ -235,19 +218,15 @@ PORTFOLIO
 
 .portfolio-row {
 	margin-top: 30px;
-
 	grid-row: 3/4;
 	grid-column: 1/4;
 }
 
 .box {
-
-
 	margin-left: 310px;
 }
 
 .title-main {
-
 	text-align: center;
 	font-size: 40px;
 	opacity: 0.8
@@ -258,32 +237,25 @@ PORTFOLIO
 }
 
 
-
-
 .portfolio-images .column-1 {
 
 	margin-left: 80px;
-	display: ;
 }
 
 .portfolio-images .column-2 {
 	margin-left: 80px;
-	display: ;
 }
 
 .img-block {
 	padding: 30px;
-
 	display: inline-block;
 	position: relative;
 
 }
 
 
-
 .img-block h2,
 .img-block span {
-
 	color: #fff;
 	display: inline-block;
 	position: absolute;
@@ -306,14 +278,11 @@ PORTFOLIO
 	text-align: center;
 	margin: 5px;
 
-
 }
 
 
 hr {
-
 	width: 50px;
-
 }
 
 
@@ -327,15 +296,11 @@ REVIEW
 	align-self: center;
 }
 
-
-
 .reviews {
 
 	grid-column: 2/3;
 	grid-row: 4/5;
 	display: flex;
-	justify-content: ;
-	flex-direction: ;
 
 }
 
@@ -347,7 +312,6 @@ REVIEW
 	justify-content: center;
 	height: auto;
 	width: 100px;
-
 
 }
 
@@ -413,23 +377,15 @@ REVIEW
 	display: ;
 	position: relative;
 	width: 700px;
-	height: ;
-	padding: ;
-	margin: ;
 	list-style-type: none;
 }
 
 .slide {
 	display: ;
-
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: ;
-	height: ;
-	opacity: ;
 	z-index: 1;
-
 	-webkit-transition: opacity 1s;
 	-moz-transition: opacity 1s;
 	-o-transition: opacity 1s;
@@ -446,7 +402,7 @@ REVIEW
 	font-size: 15px;
 	padding: 10px;
 	box-sizing: border-box;
-	background: background: #363636;;
+	background: background: #363636;
 	color: #fff;
 }
 
@@ -470,8 +426,6 @@ REVIEW
 .slide:nth-of-type(5) {
 	background: ;
 }
-
-
 
 
 
@@ -500,7 +454,6 @@ PRICES
 
 	display: flex;
 	justify-content: center;
-	margin: ;
 	padding: 10px;
 }
 
@@ -522,7 +475,7 @@ PRICES
 
 .col1 .price-img {
 	opacity: 0.3;
-	background-image: url(/img/photo151.jpg);
+	background-image: url(../img/img-1.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -536,12 +489,11 @@ PRICES
 .col1 .text {
 
 	position: relative;
-	margin-top: ;
 }
 
 .col2 .price-img {
 	opacity: 0.3;
-	background-image: url(/img/photopr2.jpg);
+	background-image: url(../img/img-2.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -550,7 +502,7 @@ PRICES
 	height: 100%;
 	width: 100%;
 }
-
+.col1 .text,
 .col2 .text,
 .col3 .text,
 .col4 .text {
@@ -562,7 +514,7 @@ PRICES
 
 .col3 .price-img {
 	opacity: 0.3;
-	background-image: url(/img/photo33.jpg);
+	background-image: url(../img/img-4.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -572,24 +524,14 @@ PRICES
 	width: 100%;
 }
 
-.col4 .price-img {
-	opacity: 0.3;
-	background-image: url(/img/photo22.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
 
-}
-.col4 button,
+
+
 .price-column button {
 	display: inline-block;
 	background-color: #363636;
 	color: white;
-margin-bottom: 30px;
+	margin-bottom: 30px;
 	font-weight: 900;
 	text-decoration: none;
 	user-select: none;
@@ -603,32 +545,39 @@ margin-bottom: 30px;
 
 button:hover {
 
-	background-color: aliceblue;
+	background-color: #212121;
 	color: #2b2b2b;
 }
 
+button a {
+	
+	color: white;
+	text-decoration: none;
+}
 
 
 .price-column .text {
-	
+
 	text-align: center;
 }
+
 .price-text {
-	
-	
+
+
 	margin-top: 100px;
 	text-align: center;
 }
 
 .price-text hr {
-	
-	width:  200px;
+
+	width: 200px;
 }
 
-.price-column .text h1{
-	
+.price-column .text h1 {
+
 	font-size: 60px;
 }
+
 /*
 ...
 FOLLOW ME
@@ -653,11 +602,6 @@ FOLLOW ME
 	display: flex;
 }
 
-.container img {
-
-
-	padding: px;
-}
 
 .follow-me button {
 	height: 50px;
@@ -676,17 +620,21 @@ FOLLOW ME
 	text-decoration: none;
 
 }
+.follow-me button:hover {
+	
+	background: #2b2b2b;
+}
+
 .thing img {
 	padding: 0px;
-	margin:0px;
+	margin: 0px;
 }
 
 
 /*slaider 
 
-????????????? прописала стили в индексе
+!!!!!!! прописала стили в index
 */
-
 
 
 
@@ -697,6 +645,7 @@ ARTICLES
 */
 
 .articles {
+	margin-top: 50px;
 	grid-column: 1/4;
 	grid-row: 7/8;
 }
@@ -718,24 +667,20 @@ ARTICLES
 
 .articles-columns {
 
-	color: #2b2b2b;
+	color: #fff;
 	display: flex;
 	justify-content: center;
 	font-size: 20px;
-	opacity: 0.5;
+	opacity: ;
 
 }
 
 .article-column {
-	background-color: #dedede;
+	background-color: #d2d2d2;
 	margin: 30px;
 	width: 400px;
 	padding: 30px;
 }
-
-
-.articles-columns {}
-
 
 
 
@@ -749,7 +694,6 @@ footer {
 	border-top: 0.5px solid silver;
 	grid-row: 8/9;
 	grid-column: 1/4;
-	background: ;
 
 }
 

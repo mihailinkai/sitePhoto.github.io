@@ -79,7 +79,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #cb3529;
+  background: #000;
   color: #fff;
   text-decoration: none;
   font-family: Poppins;
@@ -87,7 +87,7 @@ nav {
 }
 
 .nav a:hover {
-  background: tomato;
+  background: #363636;
 }
 
 .nav ul {
@@ -128,6 +128,10 @@ nav {
 }
 
 
+.logo {
+	
+	margin: 10px;
+}
 
 
 
@@ -159,7 +163,7 @@ nav {
 
 .info-img {
 	opacity: 0.2;
-	background-image: url(/img/photo3.jpg);
+	background-image: url(../img/p11.jpg);
 	background-size: 700px;
 	background-repeat: no-repeat;
 	position: absolute;

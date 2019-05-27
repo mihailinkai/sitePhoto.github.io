@@ -1,56 +1,58 @@
 
-jQuery(document).ready(function($) {
 
-    // Добавляем маску для поля с номера телефона
-    $('#phone').mask('+7 (999) 999-99-99');
 
-    // Проверяет отмечен ли чекбокс согласия
-    // с обработкой персональных данных
-    $('#check').on('click', function() {
-        if ($("#check").prop("checked")) {
-            $('#button').attr('disabled', false);
-        } else {
-            $('#button').attr('disabled', true);
-        }
-    });
+//горизонтальный слайдер на follow me с помощью  плагина slick
 
-    // Отправляет данные из формы на сервер и получает ответ
-    $('#contactForm').on('submit', function(event) {
-        
-        event.preventDefault();
+	$(document).ready(function() {
 
-        var form = $('#contactForm'),
-            button = $('#button'),
-            answer = $('#answer'),
-            loader = $('#loader');
+			$('.thing').slick({
 
-        $.ajax({
-            url: 'handler.php',
-            type: 'POST',
-            data: form.serialize(),
-            beforeSend: function() {
-                answer.empty();
-                button.attr('disabled', true).css('margin-bottom', '20px');
-                loader.fadeIn();
-            },
-            success: function(result) {
-                loader.fadeOut(300, function() {
-                    answer.text(result);
-                });
-                form.find('.form-control').val('');
-                button.attr('disabled', false);
-				 $('#exampleModal').modal('hide');
-            },
-            error: function() {
-                loader.fadeOut(300, function() {
-                    answer.text('Произошла ошибка! Попробуйте позже.');
-                });
-                button.attr('disabled', false);
-            }
-        });
-    
-    });
+				slidesToShow: 4,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 2000,
 
-});
+			});
+
+		});
+
+
+
+
+//переключение слайдов на отзывых
+//	 чистый JS
+
+	var slides = document.querySelectorAll('#slides .slide');
+		var currentSlide = 0;
+		var slideInterval = setInterval(nextSlide, 2000);
+
+		function nextSlide() {
+			slides[currentSlide].className = 'slide';
+			currentSlide = (currentSlide + 1) % slides.length;
+			slides[currentSlide].className = 'slide showing';
+		};
+
+
+
+// слайдер в project
+
+	$(document).ready(function() {
+
+	$('.slides').slick({
+		
+		
+	infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1
+		
+		
+	});
+			
+			
+			
+			
+			
+		});
+
 
 

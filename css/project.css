@@ -83,7 +83,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #cb3529;
+  background: #000;
   color: #fff;
   text-decoration: none;
   font-family: Poppins;
@@ -91,7 +91,7 @@ nav {
 }
 
 .nav a:hover {
-  background: tomato;
+  background: #2d2d2d;
 }
 
 .nav ul {
@@ -129,6 +129,10 @@ nav {
   top: 0;
 }
 
+.logo {
+	
+	margin: 10px;
+}
 
  
 
@@ -177,7 +181,7 @@ MAIN
 	grid-row: 2/3;
 	display: grid;
 	grid-auto-columns: 405px auto 405px;
-	grid-auto-rows: px;
+	
 
 }
 
@@ -200,8 +204,9 @@ MAIN
 	grid-column: 3/4;
 	width: ;
 	height: ;
-	background-image: url(/img/photo9.jpg);
-	background-size: 410px;
+	background-image: url(../img/img-r.jpg);
+	background-size: 400px;
+background-repeat: no-repeat;
 }
 
 
@@ -292,91 +297,6 @@ footer p {
 }
 
 
-/*comman stylies for galleries*/
-
-
-/*
-...
-PORTFOLIO
-...
-*/
-
-.portfolio-row {
-	margin-top: 30px;
-
-	grid-row: 3/4;
-	grid-column: 1/4;
-}
-
-.box {
-
-
-	margin-left: 310px;
-}
-
-.title-main {
-
-	text-align: center;
-	font-size: 40px;
-	opacity: 0.8
-}
-
-.portfolio-row hr {
-	margin-left: 680px;
-}
-
-
-
-
-.portfolio-images .column-1 {
-
-	margin-left: 80px;
-	display: ;
-}
-
-.portfolio-images .column-2 {
-	margin-left: 80px;
-	display: ;
-}
-
-.img-block {
-	padding: 30px;
-
-	display: inline-block;
-	position: relative;
-
-}
-
-
-
-.img-block h2,
-.img-block span {
-font-size: 15px;
-	color: #fff;
-	display: ;
-	position: ;
-	display: ;
-	top: 100px;
-	left: 55px;
-
-}
-
-.
-
-.portfolio-row h5,
-.portfolio-row h2 {
-	text-transform: uppercase;
-	text-align: center;
-	margin: 5px;
-
-
-}
-
-.portfolio-images {
-	
-	width: ;
-	height: ;
-}
 
 
 /*blog articles style*/
@@ -397,4 +317,21 @@ font-size: 15px;
 	
 	margin: 20px;
 	max-width: 200px;
+	
 }
+
+/*comman stylies for project*/
+
+.slide {
+	
+	width: 250px;
+	height: 250px;
+}
+
+.slide img {
+	
+	margin-top: 10px;
+		width: 350px;
+	height: auto;
+}
+
