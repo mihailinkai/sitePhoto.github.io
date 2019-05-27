@@ -195,7 +195,7 @@ MAIN
 	grid-column: 1/2;
 	width: ;
 	height: ;
-	background-image: url(/img/img-l.jpg);
+	background-image: url(../img/img-l.jpg);
 	background-size: 600px;
 	background-repeat: no-repeat;
 }
