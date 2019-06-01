@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>contact-form</title>
-	
-	<!--	Собственные стили-->
+
+	<!--	My styles-->
 	<link rel=stylesheet href="css/contact.css" type="text/css">
-		<!--	ШРИФТЫ-->
+
+	<!--	Fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<!-- для вставки иконок -->
+
+	<!-- add icons -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
@@ -20,183 +23,153 @@
 -->
 
 <body>
- <header>
- 	
- 	
+	<header>
+
 		<!--NAVIGATION MENU-->
 
-<nav>
+		<nav>
 
-<div class="logo">
-  <i class="fas fa-camera"></i>
-  </div>
-<div class="nav">
-  <ul>
-  <li><a href="index.html">home</a></li>
-  <li><a href="index.html#gallery">gallery</a>
-    <ul class="dropdown1">
-      <li><a href="project1.html">portraits</a></li>
-      <li><a href="project1.html">fashion</a></li>
-      <li><a href="project1.html">love-story
- </a></li>
-      <li><a href="project1.html">wedding</a></li>
-      
-    </ul>   
-  </li>
-  <li><a href="index.html#hot-price">price</a></li>
-  <li><a href="articles.html">blog</a></li>
-  <li><a href="contact.html">contacts</a></li>
-</ul>
- 
-  </div>
- 
-</nav>
+			<div class="logo">
+				<i class="fas fa-camera"></i>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="index.html">home</a></li>
+					<li><a href="index.html#gallery">gallery</a>
+						<ul class="dropdown1">
+							<li><a href="project1.html">portraits</a></li>
+							<li><a href="project1.html">fashion</a></li>
+							<li><a href="project1.html">love-story</a></li>
+							<li><a href="project1.html">wedding</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html#hot-price">price</a></li>
+					<li><a href="articles.html">blog</a></li>
+					<li><a href="contact.html">contacts</a></li>
+				</ul>
+			</div>
+		</nav>
 
+	</header>
 
+	<!--info with photo-->
 
- 	
- </header>
-
-
-<!--info with photo-->
-
-<div class="info">
-	
+	<div class="info">
 		<div class="columns col-left">
+			<div class="info-img"></div>
 
-				<div class="info-img">
-
-
-				</div>
-				<div class="text">
+			<div class="text">
 				<h1>Contact us</h1>
-					<h2>Drop us a line</h2>
-
-<p>If you have any questions about our products or services, our team is ready to answer any of your questions.</p>
-					<p>So feel free to get in touch with us.</p>
-
-
-					<h3>Saint-Petersburg, Russia</h3>
-<p>
-
-<h2>E-mail and Phone</h2>
-
-					<p>mail@gmail.com</p>
-					<p>8(800) 000-0000</p>
-					
-
-	
-	
-</div>
-	</div>
+				<h2>Drop us a line</h2>
+				<p>
+					If you have any questions about our products or services, our team is ready to answer any of your questions.
+				</p>
+				<p>So feel free to get in touch with us.</p>
+				<h3>Saint-Petersburg, Russia</h3>
+				<h2>E-mail and Phone</h2>
+				<p>mail@gmail.com</p>
+				<p>8(800) 000-0000</p>
+			</div>
+		</div>
 	</div>
 
-<!--
+	<!--
 .........
 CONTACT FORM
 ...........
 -->
 
-	
 	<div class="form-container" style="background: #2d2d2">
 		<h2>CONTACT FORM</h2>
-<!--
+		<!--
 <p>
 	Have questions?  Want to chat?  Want to meet for lunch?  laughing Please complete the contact form and I will be back in touch as soon as I can!</p>
 -->
-		<form id="contactForm" action="handler.php" method="post">
+		<form id="contactForm" method="post">
 			<div class="field-block">
 				<label for="name">Name:</label>
 				<input id="name" class="field" name="name" required type="text" placeholder="Anna">
 			</div>
+
 			<div class="field-block">
 				<label for="email">Email Addres:</label>
 				<input id="email" class="field" name="email" required type="email" placeholder="anna@gmail.com">
 			</div>
+
 			<div class="field-block">
 				<label for="phone">Phone Number:</label>
 				<input id="phone" class="field" name="phone" required type="text" placeholder="+7 (800) 000-00-00">
 			</div>
-			
-			 <div class="field-block">
-       <span>Session type:</span>
-       <select class="session field" name="session">
-         <option value="Тарифный план: Стартовый">select an option</option>
-          <option value="Тарифный план: Стартовый">Portrait</option>
-          <option value="Тарифный план: Оптимальный">Love-story</option>
-          <option value="Тарифный план: VIP">Wedding</option>
-       </select>
-    </div>
-			
-			
+
+			<div class="field-block">
+				<span>Session type:</span>
+				<select class="session field" name="session">
+					<option value="Тарифный план: Стартовый">select an option</option>
+					<option value="Тарифный план: Стартовый">Portrait</option>
+					<option value="Тарифный план: Оптимальный">Love-story</option>
+					<option value="Тарифный план: VIP">Wedding</option>
+				</select>
+			</div>
+
 			<div class="field-block">
 				<label for="message">Message:</label>
 				<textarea id="message" class="field" required name="message" rows="4" placeholder="I want love-story photo shoot... "></textarea>
 			</div>
+
 			<div class="field-block">
 				<input id="check" name="check" checked type="checkbox">
 				<span class="check-text">I voluntarily send my data</span>
 			</div>
+
 			<button id="button" class="button" type="submit">Send</button>
+
 			<div class="result">
 				<span id="answer"></span>
 				<span id="loader"><img src="images/loader.gif" alt=""></span>
 			</div>
+
 		</form>
 	</div>
 
-	
-	
-	
-<!--
+	<!--
 	....
 	FOOTER
 	.......
 -->
 
-<footer>
-	
-	
-			<!--					иконки соцсети -->
-			<div class="social-links">
-				<ul class="links">
-					<li>
+	<footer>
 
-						<!-- _blank стр в новом окне> -->
-						<a class="social-link-ig" href="#" target="_blank">
-							<i class="fab fa-instagram"></i>
-						</a>
-					</li>
+		<!--				social icons -->
+		<div class="social-links">
 
-					<li>
-						<a class="social-link-vk" href="#">
-							<i class="fab fa-vk"></i>
-						</a>
-					</li>
-					<li>
-						<a class="social-link-github" href="#" target="_blank">
-							<i class="fab fa-github"></i>
-						</a>
-					</li>
-					<li>
-						<a class="social-link-telegramm" href="#" target="_blank">
-							<i class="fab fa-telegram-plane"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
+			<ul class="links">
+				<li>
+					<a class="social-link-ig" href="#" target="_blank">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li>
+				<li>
+					<a class="social-link-vk" href="#">
+						<i class="fab fa-vk"></i>
+					</a>
+				</li>
+				<li>
+					<a class="social-link-github" href="#" target="_blank">
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+				<li>
+					<a class="social-link-telegramm" href="#" target="_blank">
+						<i class="fab fa-telegram-plane"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
 
-		
+		<p>All images and text &copy; 2018-2019, mihailinkai</p>
 
-		
-			
-			
-		<p>All images and text &copy; 2018-2019, mihailinkai</p>	
-		
-	
-</footer>
-
+	</footer>
 
 </body>
+
 </html>
-	

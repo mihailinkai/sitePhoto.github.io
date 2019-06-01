@@ -1,7 +1,8 @@
 
 
 
-//горизонтальный слайдер на follow me с помощью  плагина slick
+
+//Horizontal slider with slick plugin - Follow me Block
 
 	$(document).ready(function() {
 
@@ -19,7 +20,7 @@
 
 
 
-//переключение слайдов на отзывых
+//Switch slides - Reviews Block - clean JS
 //	 чистый JS
 
 	var slides = document.querySelectorAll('#slides .slide');
@@ -34,24 +35,18 @@
 
 
 
-// слайдер в project
+// SLider -  project
 
 	$(document).ready(function() {
 
 	$('.slides').slick({
 		
-		
 	infinite: true,
   slidesToShow: 3,
   slidesToScroll: 1
-		
-		
+			
 	});
-			
-			
-			
-			
-			
+				
 		});
 
 

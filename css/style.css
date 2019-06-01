@@ -1,7 +1,6 @@
 body {
 	margin: 0px;
 	padding: 0px;
-
 	font-size: 25px;
 	font-family: 'Raleway', sans-serif;
 	background-color: #2b2b2b;
@@ -9,8 +8,6 @@ body {
 	display: grid;
 	grid-auto-columns: auto auto auto;
 	grid-auto-rows: 800px 400px auto 500px auto auto auto 100px;
-
-
 }
 
 /*
@@ -19,17 +16,13 @@ HEADER
 ...
 */
 
-
 header h1,
 header p {
-
 	margin-bottom: 115px;
 	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-
 }
 
 header h1 {
-
 	margin-top: 100px;
 }
 
@@ -39,7 +32,6 @@ header {
 	grid-row: 1/2;
 	background: no-repeat url(../img/img-header.jpg);
 	background-size: 1500px;
-
 }
 
 
@@ -112,19 +104,15 @@ nav {
 	width: 100%;
 }
 
-
 .dropdown1 li:hover {
 	display: block;
 	top: 0;
 }
 
 .logo {
-	
+
 	margin: 10px;
 }
-
-
-
 
 /*
 ...
@@ -138,13 +126,11 @@ MAIN
 	grid-row: 2/3;
 	display: grid;
 	grid-auto-columns: 405px auto 405px;
-
 }
 
 .persona-block {
 	grid-column: 2/3;
 	background: #363636;
-
 }
 
 .img-left {
@@ -159,7 +145,6 @@ MAIN
 	background-image: url(../img/img-r.jpg);
 	background-size: 410px;
 }
-
 
 .persona-block h5,
 .persona-block h2 {
@@ -192,14 +177,12 @@ MAIN
 	text-align: center;
 	width: 40px;
 	color: #fff;
-
 }
 
 .links {
 	padding: 0;
 	display: flex;
 	justify-content: center;
-
 }
 
 .links a i:hover {
@@ -208,7 +191,6 @@ MAIN
 	box-shadow: 10px 0 10px rgba(0, 0, 0, 0.5);
 	border-radius: 50px 0 0 50px;
 }
-
 
 /*
 ...
@@ -250,7 +232,6 @@ PORTFOLIO
 	padding: 30px;
 	display: inline-block;
 	position: relative;
-
 }
 
 
@@ -262,7 +243,6 @@ PORTFOLIO
 	display: none;
 	top: 100px;
 	left: 55px;
-
 }
 
 .img-block:hover h2,
@@ -277,7 +257,6 @@ PORTFOLIO
 	text-transform: uppercase;
 	text-align: center;
 	margin: 5px;
-
 }
 
 
@@ -297,14 +276,10 @@ REVIEW
 }
 
 .reviews {
-
 	grid-column: 2/3;
 	grid-row: 4/5;
 	display: flex;
-
 }
-
-
 
 .review img {
 	display: block;
@@ -312,7 +287,6 @@ REVIEW
 	justify-content: center;
 	height: auto;
 	width: 100px;
-
 }
 
 .review h1 {
@@ -321,7 +295,6 @@ REVIEW
 	margin: 5px;
 }
 
-
 .review blockquote {
 	background: #363636;
 	margin: 0;
@@ -329,7 +302,6 @@ REVIEW
 	margin-top: 30px;
 	padding: 30px 30px 30px 90px;
 	position: relative;
-
 }
 
 .review blockquote:before {
@@ -342,7 +314,7 @@ REVIEW
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background: white;
+	background: #fff;
 	font-size: 40px;
 	font-weight: bold;
 	text-align: center;
@@ -397,7 +369,6 @@ REVIEW
 	z-index: 2;
 }
 
-
 .slide {
 	font-size: 15px;
 	padding: 10px;
@@ -411,37 +382,17 @@ REVIEW
 		background-size: 100%;
 }
 
-.slide:nth-of-type(2) {
-	background: ;
-}
-
-.slide:nth-of-type(3) {
-	background: ;
-}
-
-.slide:nth-of-type(4) {
-	background: ;
-}
-
-.slide:nth-of-type(5) {
-	background: ;
-}
-
-
-
 /*
 .....
 PRICES
 .....
 */
 
-
 .prices {
 	margin-top: 30px;
 	grid-column: 1/4;
 	grid-row: 5/6;
 }
-
 
 .prices h5,
 .prices h2 {
@@ -451,7 +402,6 @@ PRICES
 }
 
 .price-columns {
-
 	display: flex;
 	justify-content: center;
 	padding: 10px;
@@ -483,11 +433,9 @@ PRICES
 	left: 0;
 	height: 100%;
 	width: 100%;
-
 }
 
 .col1 .text {
-
 	position: relative;
 }
 
@@ -502,15 +450,13 @@ PRICES
 	height: 100%;
 	width: 100%;
 }
+
 .col1 .text,
 .col2 .text,
 .col3 .text,
 .col4 .text {
-
 	position: relative;
-
 }
-
 
 .col3 .price-img {
 	opacity: 0.3;
@@ -523,9 +469,6 @@ PRICES
 	height: 100%;
 	width: 100%;
 }
-
-
-
 
 .price-column button {
 	display: inline-block;
@@ -544,17 +487,14 @@ PRICES
 }
 
 button:hover {
-
 	background-color: #212121;
 	color: #2b2b2b;
 }
 
 button a {
-	
 	color: white;
 	text-decoration: none;
 }
-
 
 .price-column .text {
 
@@ -563,13 +503,11 @@ button a {
 
 .price-text {
 
-
 	margin-top: 100px;
 	text-align: center;
 }
 
 .price-text hr {
-
 	width: 200px;
 }
 
@@ -596,12 +534,9 @@ FOLLOW ME
 	margin: 5px;
 }
 
-
 .follow-me .container {
-
 	display: flex;
 }
-
 
 .follow-me button {
 	height: 50px;
@@ -613,15 +548,13 @@ FOLLOW ME
 	margin-right: auto;
 	margin-bottom: 20px;
 	text-decoration: none;
-
 }
 
 .follow-me a {
 	text-decoration: none;
-
 }
+
 .follow-me button:hover {
-	
 	background: #2b2b2b;
 }
 
@@ -630,13 +563,10 @@ FOLLOW ME
 	margin: 0px;
 }
 
-
 /*slaider 
 
-!!!!!!! прописала стили в index
+!!!!!!! in index
 */
-
-
 
 /*
 ....
@@ -659,20 +589,14 @@ ARTICLES
 
 .col2 img,
 .col1 img {
-
 	width: 100%;
 }
 
-
-
 .articles-columns {
-
 	color: #fff;
 	display: flex;
 	justify-content: center;
 	font-size: 20px;
-	opacity: ;
-
 }
 
 .article-column {
@@ -681,8 +605,6 @@ ARTICLES
 	width: 400px;
 	padding: 30px;
 }
-
-
 
 /*
 ....
@@ -694,14 +616,9 @@ footer {
 	border-top: 0.5px solid silver;
 	grid-row: 8/9;
 	grid-column: 1/4;
-
 }
 
-
-
-
 footer p {
-
 	font-size: 10px;
 	text-align: center;
 	padding-bottom: 10px;

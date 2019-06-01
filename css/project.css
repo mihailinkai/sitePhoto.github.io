@@ -1,25 +1,13 @@
-
 body {
-
-
-	
-	
 	background-color: #363636;
 	margin: 0px;
 	padding: 0px;
 	font-size: 25px;
 	font-family: 'Raleway', sans-serif;
-	
 	color: #fff;
 	display: flex;
 	flex-direction: column;
-
-
 }
-
-
-
-
 
 /*
 ...
@@ -27,44 +15,21 @@ HEADER
 ...
 */
 
-
 header {
 	text-align: center;
-	padding: ;
-	
-	background: ;
-	background-size: ;
-
 }
-
-
-header h1,
-header p {
-
-	margin-bottom: px;
-	box-shadow: ;
-
-}
-
-header h1 {
-
-	margin-top: ;
-}
-
 
 .title {
-	
 	margin-top: 50px;
 	margin-right: 800px
 }
 
-
 /*Menu*/
 
 nav * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 nav {
@@ -72,70 +37,66 @@ nav {
 	z-index: 6;
 	width: 100%;
 	opacity: 0.8;
-  display:flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
+
 .nav {
-  width: 70%;
-  list-style: none;
+	width: 70%;
+	list-style: none;
 }
+
 .nav a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #000;
-  color: #fff;
-  text-decoration: none;
-  font-family: Poppins;
-   height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	font-family: Poppins;
+	height: 50px;
 }
 
 .nav a:hover {
-  background: #2d2d2d;
+	background: #2d2d2d;
 }
 
 .nav ul {
-  list-style: none;
-  display: flex;
+	list-style: none;
+	display: flex;
 }
 
 .nav ul li {
-  position: relative;
-  width: 100%;
-  text-align: center;
+	position: relative;
+	width: 100%;
+	text-align: center;
 }
 
 .nav li:hover .dropdown1 > li {
-  display:block;
-  top: 0;  
+	display: block;
+	top: 0;
 }
 
 .dropdown1 li {
-  display: none;
-  position: relative;
+	display: none;
+	position: relative;
 }
 
 .dropdown1 {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
 
-
-
 .dropdown1 li:hover {
-  display: block;
-  top: 0;
+	display: block;
+	top: 0;
 }
 
 .logo {
-	
 	margin: 10px;
 }
-
- 
-
 
 /*
 ......
@@ -143,37 +104,27 @@ MAIN
 ....
 */
 
-
 .main {
-	
-	width:100%;
-	height: ;
-	margin: ;
+	width: 100%;
+
 	background: #dedede;
 	display: flex;
 	flex-direction: column;
-	
-	
 }
+
 .slides {
-	
 	align-self: center;
 	width: 1000px;
 }
+
 .slides slide {
 	position: relative;
-	
-	width: ;
-	height: ;
 }
 
 .slides img {
-	
 	width: 500px;
 	height: 500px;
 }
-
-
 
 .main-row {
 	padding: 20px;
@@ -181,20 +132,15 @@ MAIN
 	grid-row: 2/3;
 	display: grid;
 	grid-auto-columns: 405px auto 405px;
-	
-
 }
 
 .persona-block {
 	grid-column: 2/3;
 	background: #363636;
-
 }
 
 .img-left {
 	grid-column: 1/2;
-	width: ;
-	height: ;
 	background-image: url(../img/img-l.jpg);
 	background-size: 600px;
 	background-repeat: no-repeat;
@@ -202,38 +148,26 @@ MAIN
 
 .img-right {
 	grid-column: 3/4;
-	width: ;
-	height: ;
 	background-image: url(../img/img-r.jpg);
 	background-size: 400px;
-background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
-
 
 .persona-block h5,
 .persona-block h2 {
 	text-transform: uppercase;
 	text-align: center;
-	padding: px;
-	padding-top: ;
 	margin: 5px;
-
-
-
 }
 
 .persona-block h5 {
-
 	padding-top: 50px;
 }
 
 .persona-block p {
-
 	font-size: 18px;
 	text-align: center;
 }
-
-
 
 /*
  ...
@@ -244,32 +178,26 @@ FOOTER
 footer {
 	background-color: #363636;
 	max-height: 150px;
-	
-	
 }
 
 /*icons*/
-
 
 .social-links ul li {
 	list-style-type: none;
 	padding: 5px 20px;
 	text-decoration: none;
-
 }
 
 .links a i {
 	text-align: center;
 	width: 40px;
 	color: #fff;
-
 }
 
 .links {
 	padding: 0;
 	display: flex;
 	justify-content: center;
-
 }
 
 .links a i:hover {
@@ -277,61 +205,51 @@ footer {
 	color: #363636;
 	box-shadow: 10px 0 10px rgba(0, 0, 0, 0.5);
 	border-radius: 50px 0 0 50px;
-
-	/*	тень*/
-
 }
+
+/*Footer*/
+
 footer {
-border-top: 0.5px solid silver;
-	padding:auto;
-	margin:0;
-	
+	border-top: 0.5px solid silver;
+	padding: auto;
+	margin: 0;
 }
 
 footer p {
-	color:#dedede;
+	color: #dedede;
 	font-size: 8px;
 	text-align: center;
-	padding:5px;
-	
+	padding: 5px;
 }
 
 
-
-
-/*blog articles style*/
+/*..................
+Blog-articles style
+...................*/
 .blog-articles {
-	
-	
 	background: #dedede;
 	color: #363636;
 }
 
 .blog-articles .blog-article {
-	
 	display: flex;
 	margin: 30px;
-	
 }
+
 .blog-article img {
-	
 	margin: 20px;
 	max-width: 200px;
-	
 }
 
 /*comman stylies for project*/
 
 .slide {
-	
 	width: 250px;
 	height: 250px;
 }
 
 .slide img {
-	
 	margin-top: 10px;
-		width: 350px;
+	width: 350px;
 	height: auto;
 }
-
